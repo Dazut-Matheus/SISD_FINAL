@@ -1,5 +1,6 @@
 from xmlrpc.client import ServerProxy, Error
 
+
 def enviar_pedido(departamento, pedido):
     try:
         portas = {
